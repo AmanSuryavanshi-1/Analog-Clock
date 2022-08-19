@@ -183,7 +183,6 @@ body{
 @media screen and (max-width: 600px) and (min-width:300px){
     body{
         height: 80vh;
-        padding-left: 3%;
         padding-top: 50%;
         padding-bottom: 50%;
         background: #2f363e;
