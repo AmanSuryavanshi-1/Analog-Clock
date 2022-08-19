@@ -179,3 +179,36 @@ body{
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 600px) and (min-width:300px){
+    body{
+        height: 80vh;
+        padding-left: 3%;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        background: #2f363e;
+        position: fixed;
+    }
+
+    .clock{
+        position: relative;
+        width: 380px;
+        height: 380px;
+    }
+    .circle{
+        width: 220px;
+        height: 220px;
+    }
+    .circle2{
+        width: 160px;
+        height: 160px;
+        z-index: 9;
+    }
+    
+    .circle3{
+        width: 100px;
+        height: 100px;
+        z-index: 8;
+    }
+    
+}
